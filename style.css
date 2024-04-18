@@ -1,0 +1,82 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .social {
+    list-style: none;
+}
+/* Updated styling for social links */
+footer .social li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer .social li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add icons for social links */
+footer .social li a::before {
+    display: inline-block;
+    margin-right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+/* Define icon content for each social link */
+footer .social li:nth-child(1) a::before {
+    content: "\f099"; /* Twitter icon */
+}
+
+footer .social li:nth-child(2) a::before {
+    content: "\f08c"; /* LinkedIn icon */
+}
+
+footer .social li:nth-child(3) a::before {
+    content: "\f09b"; /* GitHub icon */
+}
+
+footer .social li:nth-child(4) a::before {
+    content: "\f16d"; /* Instagram icon */
+}
